@@ -1,0 +1,25 @@
+@font-face {
+    font-family: vazir;
+    src: url('../fonts/Vazir-Regular.woff2');
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: vazir;
+    background-color: #e3f2fd;
+}
+
+.panel {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 8rem;
+}
+
+.user-profile {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 7rem;
+}
