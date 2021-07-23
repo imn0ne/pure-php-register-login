@@ -1,5 +1,8 @@
 <?php
 
+// Error reporting
+error_reporting(0);
+
 $GLOBALS['config'] = [
     'database' => [
         'host' => '127.0.0.1',
@@ -15,6 +18,3 @@ $GLOBALS['config'] = [
     ],
     
 ];
-
-// Error reporting
-// error_reporting(0);

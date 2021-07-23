@@ -30,6 +30,11 @@ class DB
         }
     } 
 
+    public function __destruct()
+    {
+        $this->_pdo = null;
+    }
+
     public function getInstance()
     {
         if(!isset(self::$_instance)) {

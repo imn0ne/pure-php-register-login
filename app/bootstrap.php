@@ -1,14 +1,14 @@
 <?php
 
-use App\Database\DB;
-use App\Classes\User;
-use App\Classes\Cookie;
-session_start();
 
 require_once realpath("vendor/autoload.php");
 require_once realpath("config/app.php");
 require_once realpath("functions/sanitize.php");
 
+use App\Database\DB;
+use App\Classes\User;
+use App\Classes\Cookie;
+session_start();
 
 
 if (Cookie::has('hash')) {
